@@ -28,7 +28,7 @@ const Header = () => {
                                 <h1>Bouakkaz Ahmed Amine</h1>
                                 <h2> Web Developer  </h2>
                                 <h3> bouakaz42@gmail.com </h3>
-                                <button className='text-white mt-4 rounded-md shadow-md ring-1 w-24 h-8 bg-slate-700 hover:ring-offset-2 hover:bg-slate-500'>Hire Me</button>
+                                <Link href='/contact_me'><button className='text-white mt-4 rounded-md shadow-md ring-1 w-24 h-8 bg-slate-700 hover:ring-offset-2 hover:bg-slate-500'>Hire Me</button></Link>
                                 
                                 </div>
                                 <div className='font-semibold text-sm mt-1 space-y-1 text-gray-800 ml-40 border-2 p-2 rounded-md'>
