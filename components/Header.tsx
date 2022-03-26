@@ -12,15 +12,18 @@ const Header = () => {
                                 
                                 <motion.div 
                                 animate={{
-                                    rotate:[360,360,360],
-                                    scale:[1,1],
+                                    rotate:360,
+                                    scale:1,
                                 }}
                                 
                                 className="conatiner w-20 h-20 p-1 mt-4 rounded-full relative ring-1 ring-offset-4 ring-neutral-600 hover:ring-offset-8 z-10 ring-offset-white  ">
                                 {/* <h1 className='z-20 text-black text-xl font-bold ml-1 mt-2 fixed' >About   Me</h1> */}
                                 
                                 <Link href='/about_me' passHref>
+                                    <a>
                                     <Image layout='fill' alt='Bouakkaz Ahmed Amine Image' className="rounded-full hover:blur-sm z-30 hover:z-10" src={Nadir} />
+
+                                    </a>
                                 </Link>  
                                 </motion.div>
                                 

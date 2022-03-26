@@ -4,8 +4,8 @@ import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps , router }: AppProps) {
 
-  return    <Layout>
-            <Component {...pageProps} key={router.route} />
+  return    <Layout key={router.route} >
+            <Component {...pageProps}  />
             </Layout>
        
          
